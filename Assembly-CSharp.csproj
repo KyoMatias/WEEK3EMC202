@@ -45,6 +45,7 @@
      <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventorySlot.cs" />
      <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventorySystem.cs" />
      <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventoryHolder.cs" />
+     <Compile Include="Assets\Scenes\Scripts\InventoryItem.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Codes\UnityEngine\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
