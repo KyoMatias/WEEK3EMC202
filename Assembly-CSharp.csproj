@@ -42,11 +42,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scenes\Scripts\Items\InventoryItemData.cs" />
-     <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventorySlot.cs" />
-     <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventorySystem.cs" />
-     <Compile Include="Assets\Scenes\Scripts\InventoryScripts\InventoryHolder.cs" />
      <Compile Include="Assets\Scenes\Scripts\InventoryItem.cs" />
      <Compile Include="Assets\Scenes\Scripts\InventorySlotSnap.cs" />
+     <Compile Include="Assets\Scenes\Scripts\InventoryManager.cs" />
      <Reference Include="UnityEngine">
      <HintPath>D:\Codes\UnityEngine\2021.3.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>

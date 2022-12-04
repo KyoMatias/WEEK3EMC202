@@ -16,7 +16,6 @@ public class InventorySlotSnap : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         GameObject dropped = eventData.pointerDrag;
-        InventoryItem inventoryItem = dropped.GetComponent<InventoryItem>();
-        inventoryItem.ParentAfterDrag = transform;
+        InventoryItem item = dropped.GetComponent<InventoryItem>();
     }
 }

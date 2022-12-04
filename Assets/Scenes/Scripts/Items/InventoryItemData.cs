@@ -12,14 +12,17 @@ using UnityEngine;
 //
 
 [CreateAssetMenu(menuName = "Inventory System/Inventory Item")]
-public class InventoryItemData : ScriptableObject
+public class Item : ScriptableObject
 {
     
     [Header("Gameplay")]
-    public int ID;
     public string DisplayName;
     public string Description;
-    public Sprite Icon;
+    [Header("Ui")]
     public bool Stackable;
+    public Sprite Icon;
+    [Header("Both")]
+    public int ID;
     public int MaxStack;
+    
 }
