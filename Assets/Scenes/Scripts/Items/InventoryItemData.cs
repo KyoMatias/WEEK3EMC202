@@ -14,9 +14,10 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Inventory System/Inventory Item")]
 public class InventoryItemData : ScriptableObject
 {
+    
+    [Header("Gameplay")]
     public int ID;
     public string DisplayName;
-    [TextArea(4, 4)]
     public string Description;
     public Sprite Icon;
     public bool Stackable;
